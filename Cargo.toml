@@ -1,0 +1,12 @@
+[package]
+name = "thalix"
+version = "0.1.0"
+authors = ["Thalya Maerten"]
+
+[lib]
+name = "thalix"
+crate-type = ["staticlib"]
+
+[dependencies]
+rlibc = "1.0.0"
+
